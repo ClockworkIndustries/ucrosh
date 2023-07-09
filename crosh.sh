@@ -5,7 +5,7 @@ trap '' 2
 
 
 #FOR DEVELOPMENT USES ONLY
-ucroshlocation="/home/chronos/user/Downloads/ucrosh/crosh.sh"
+ucroshlocation="/usr/bin/crosh"
 mrchromeboxlocation="/usr/bin/ucrosh/firmware-util.sh"
 
 if [ "$EUID" -eq 1000 ]; then # root esc for vpd log
