@@ -5,7 +5,7 @@ trap '' 2
 
 
 #FOR DEVELOPMENT USES ONLY
-ucroshlocation="/usr/bin/crosh"
+ucroshlocation="/home/chronos/user/Downloads/ucrosh/crosh.sh"
 mrchromeboxlocation="/usr/bin/ucrosh/firmware-util.sh"
 
 if [ "$EUID" -eq 1000 ]; then # root esc for vpd log
@@ -38,6 +38,7 @@ swallow_stdin() {
 #Thank you MW for this function aswell :)
 runjob() {
     trap 'kill -2 $! >/dev/null 2>&1' INT
+    trap 2
     (
         $@
     )
