@@ -1,7 +1,7 @@
 # U-Crosh
 Updated Crosh
 
-U-Crosh was based off of mush, written by MW, included with fakemurk.
+U-Crosh is a crosh modification based on `mush` by MW, a tool included in fakemurk.
 
 U-Crosh has many useful tools, like root shell, chronos shell, adding chromeos boot flags, pollen, and MrChromebox util.
 
